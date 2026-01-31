@@ -1,0 +1,12 @@
+[
+  { "TABLE_NAME": "CATEGORIES", "WaterMark_Column": "updated_at", "MERGE_KEY": ["category_id"] },
+  { "TABLE_NAME": "CUSTOMERS",  "WaterMark_Column": "updated_at", "MERGE_KEY": ["customer_id"] },
+  { "TABLE_NAME": "PRODUCTS",   "WaterMark_Column": "updated_at", "MERGE_KEY": ["product_id"] },
+
+  { "TABLE_NAME": "ORDERS",     "WaterMark_Column": "updated_at", "MERGE_KEY": ["order_id"] },
+  { "TABLE_NAME": "CART",       "WaterMark_Column": "updated_at", "MERGE_KEY": ["cart_id"] },
+
+  { "TABLE_NAME": "ORDERITEMS", "WaterMark_Column": "updated_at", "MERGE_KEY": ["order_item_id"] },
+  { "TABLE_NAME": "REVIEWS",    "WaterMark_Column": "updated_at", "MERGE_KEY": ["review_id"] },
+  { "TABLE_NAME": "CARTITEMS",  "WaterMark_Column": "updated_at", "MERGE_KEY": ["cart_item_id"] }
+]
