@@ -1,0 +1,6 @@
+{
+	"name": "ir-onprem",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
