@@ -24,6 +24,7 @@ This project solves the problem by implementing:
 - Watermark-based logic
 - Metadata-driven configuration
 
+![The Solution](PPT%20Images/Slide4.PNG)
 ---
 
 ## 🏗️ High-Level Architecture
