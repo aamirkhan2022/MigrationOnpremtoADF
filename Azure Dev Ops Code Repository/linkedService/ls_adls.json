@@ -1,0 +1,22 @@
+{
+	"name": "ls_adls",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://migdevadls.dfs.core.windows.net/",
+			"tenant": "5962f50e-64c8-48bb-9142-e034b25389b1",
+			"servicePrincipalId": "2f815c21-c3a8-4410-8b25-e2228242de56",
+			"servicePrincipalCredentialType": "ServicePrincipalKey",
+			"servicePrincipalCredential": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "ls_kv",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "META-SEC"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/linkedservices"
+}

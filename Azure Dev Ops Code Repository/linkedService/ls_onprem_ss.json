@@ -1,0 +1,21 @@
+{
+	"name": "ls_onprem_ss",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "AAMIR-PC\\MSSQLEXPRESS",
+			"database": "OnPremDB",
+			"encrypt": "optional",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "sa",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzNDkzMjlkZi1hZjU2LTRlODItYTNmMS0yMTYwZWEzY2UzYTUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "ir-onprem",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"name": "ls_az_ss",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "jan-dev-az-sqldb.database.windows.net",
+			"database": "MIGAZDB",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "adeadmin",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDM1MzhENzUxLUFDNEMtNEQ2Mi05NEU5LTdCREEzN0IwMDNDM181MDJhMGZjNS03YmVlLTQ1MTUtOTJmYi1kYzQzZGE3YWUwYzMiDQp9"
+		}
+	}
+}
