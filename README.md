@@ -44,8 +44,9 @@ This project solves the problem by implementing:
 ---
 
 ## 📂 Repository Structure
+**Azure DevOps Code Repository**
 
-
+![ADF Git Integration in Azure DevOps](PPT%20Images/Slide30.PNG)
 ---
 
 ## 🔑 Key Features
@@ -69,7 +70,6 @@ This solution can be used in real-world scenarios where:
 ## 👤 Author
 **Mohammad Aamir Khan**  
 Aspiring Data Engineer 
-
 
 
 
