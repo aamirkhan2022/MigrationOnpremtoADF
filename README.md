@@ -55,6 +55,7 @@ This project solves the problem by implementing:
 - Separation of configuration and logic
 - Version-controlled code using GitHub
 
+![Learning Outcome](PPT%20Images/Slide6.PNG)
 ---
 
 ## 📊 Use Case
@@ -67,7 +68,7 @@ This solution can be used in real-world scenarios where:
 
 ## 👤 Author
 **Mohammad Aamir Khan**  
-Data Engineer | Power BI Developer  
+Aspiring Data Engineer 
 
 
 
