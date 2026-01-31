@@ -29,7 +29,7 @@ This project solves the problem by implementing:
 
 ## 🏗️ High-Level Architecture
 **Data Flow:**
-
+![Read Metadata Process Incrementally](PPT%20Images/Slide31.PNG)
 ---
 
 ## ⚙️ Technologies Used
@@ -39,7 +39,8 @@ This project solves the problem by implementing:
 - SQL (Incremental & Watermark Logic)
 - JSON (Metadata Configuration)
 - GitHub (Version Control)
-
+- 
+![Technology Used](PPT%20Images/Slide5.PNG)
 ---
 
 ## 📂 Repository Structure
