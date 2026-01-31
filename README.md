@@ -5,7 +5,7 @@
 ## 📌 Project Overview
 This project demonstrates an end-to-end **metadata-driven incremental data pipeline** that migrates data from an **on-premises SQL Server** to **Azure Cloud** using modern Azure data engineering services.
 
-![Architecture](PPT Images/slide_01.png)
+![Metadata-driven Incremental Pipeline](PPT Images/Slide1.PNG)
 
 The solution is designed to handle **incremental loads efficiently**, reduce manual intervention, and support scalable data ingestion for analytics and reporting.
 
