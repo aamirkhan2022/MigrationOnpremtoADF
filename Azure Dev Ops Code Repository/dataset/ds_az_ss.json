@@ -1,0 +1,46 @@
+{
+	"name": "ds_az_ss",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_az_ss",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"DEST_TABLE_NAME": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "category_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "category_name",
+				"type": "varchar"
+			},
+			{
+				"name": "created_at",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "updated_at",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": {
+				"value": "@dataset().DEST_TABLE_NAME",
+				"type": "Expression"
+			}
+		}
+	}
+}
