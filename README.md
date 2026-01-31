@@ -17,6 +17,8 @@ Traditional full data loads from on-prem systems:
 - Consume high resources
 - Are not scalable
 
+![Business Problem](PPT%20Images/Slide3.PNG)
+
 This project solves the problem by implementing:
 - Incremental data loads
 - Watermark-based logic
